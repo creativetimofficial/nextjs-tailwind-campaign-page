@@ -1,60 +1,97 @@
 "use client";
 
 import Image from "next/image";
-import { Input, Button, Typography } from "@material-tailwind/react";
+import { Button, Typography } from "@material-tailwind/react";
 
 function Hero() {
   return (
-    <header className="bg-white p-8">
-      <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
-        <div className="row-start-2 lg:row-auto">
+    <header className="mt-12 bg-white px-8">
+      <div className="container mx-auto grid h-full min-h-[65vh] w-full grid-cols-1 place-items-center gap-y-10 lg:grid-cols-2">
+        <div className="row-start-2 lg:row-auto lg:-mt-40">
+          <Typography
+            variant="h1"
+            color="red"
+            className="text-3xl !leading-snug"
+          >
+            40% OFF
+          </Typography>
           <Typography
             variant="h1"
             color="blue-gray"
-            className="mb-4 lg:text-5xl !leading-tight text-3xl"
+            className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl"
           >
-            Welcome to my Web <br /> Development Portofolio!
+            Back-to-School Campaign
           </Typography>
           <Typography
             variant="lead"
-            className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
+            className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            We&apos;ve got everything you need to make this school year a
+            smashing success! Whether you&apos;re a student, parent, or
+            educator, we&apos;ve got everything you need.
           </Typography>
-          <div className="grid">
-            <Typography
-              variant="small"
-              className="mb-2 text-gray-900 font-medium"
-            >
-              Your email
-            </Typography>
-            <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
-                require offer
-              </Button>
-            </div>
-          </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
-            Read my{" "}
-            <a href="#" className="font-medium underline transition-colors">
-              Terms and Conditions
-            </a>
-          </Typography>
+          <Button size="lg" color="gray">
+            see offers
+          </Button>
         </div>
-        <Image
-          width={1024}
-          height={1024}
-          alt="team work"
-          src="/image/image7.svg"
-          className="h-[36rem] w-full rounded-xl object-cover"
-        />
+        <div className="mt-40 grid gap-6 lg:mt-0">
+          <div className="grid grid-cols-4 gap-6">
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle8.svg"
+              className="rounded-lg shadow-md"
+              alt="flowers"
+            />
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle9.svg"
+              className="-mt-28 rounded-lg shadow-md"
+              alt="flowers"
+            />
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle10.svg"
+              className="-mt-14 rounded-lg shadow-md"
+              alt="flowers"
+            />
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle11.svg"
+              className="-mt-20 rounded-lg shadow-md"
+              alt="flowers"
+            />
+          </div>
+          <div className="grid grid-cols-4 gap-6">
+            <div></div>
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle12.svg"
+              className="-mt-28 rounded-lg shadow-md"
+              alt="flowers"
+            />
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle13.svg"
+              className="-mt-14 rounded-lg shadow-md"
+              alt="flowers"
+            />
+            <Image
+              width={768}
+              height={768}
+              src="/image/books/Rectangle14.svg"
+              className="-mt-20 rounded-lg shadow-md"
+              alt="flowers"
+            />
+          </div>
+        </div>
       </div>
     </header>
   );
 }
-
 export default Hero;

@@ -53,7 +53,9 @@ function NavItem({ children }: { children: React.ReactNode }) {
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
 
-  const handleOpen = () => setOpen((cur) => !cur);
+  function handleOpen() {
+    setOpen((cur) => !cur);
+  }
 
   React.useEffect(() => {
     window.addEventListener(
@@ -77,8 +79,8 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Sign In</Button>
-          <Button color="gray">Sign Up</Button>
+          <Button variant="text">Log in</Button>
+          <Button color="gray">see offers</Button>
         </div>
         <IconButton
           variant="text"
@@ -104,8 +106,8 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <Button color="gray">Sign Up</Button>
+            <Button variant="text">Log in</Button>
+            <Button color="gray">see offers</Button>
           </div>
         </div>
       </Collapse>

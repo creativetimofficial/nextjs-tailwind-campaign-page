@@ -3,26 +3,24 @@ import { Navbar, Footer } from "@/components";
 
 // sections
 import Hero from "./hero";
-import Clients from "./clients";
-import Skills from "./skills";
-import Projects from "./projects";
-import Resume from "./resume";
-import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
-import ContactForm from "./contact-form";
+import TopBookCategories from "./top-book-categories";
+import BackToSchoolBooks from "./back-to-school-books";
+import OtherBookOffers from "./other-book-offers";
+import CarouselFeatures from "./carousel-features";
+import GetYourBookFromUs from "./get-your-book-from-us";
+import Faq from "./faq";
 
-export default function Portfolio() {
+export default function Campaign() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Clients />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
-      <ContactForm />
+      <TopBookCategories />
+      <BackToSchoolBooks />
+      <OtherBookOffers />
+      <CarouselFeatures />
+      <GetYourBookFromUs />
+      <Faq />
       <Footer />
     </>
   );
