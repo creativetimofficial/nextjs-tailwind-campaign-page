@@ -13,25 +13,25 @@ import {
 
 const CATEGORIES = [
   {
-    img: "/image/blogs/blog-3.png",
+    img: "/nextjs-tailwind-campaign-page/image/blogs/blog-3.png",
     icon: HeartIcon,
     title: "Fiction Books",
     desc: "up to 40% OFF",
   },
   {
-    img: "/image/blogs/blog-12.jpeg",
+    img: "/nextjs-tailwind-campaign-page/image/blogs/blog-12.jpeg",
     icon: PuzzlePieceIcon,
     title: "School Books",
     desc: "up to 40% OFF",
   },
   {
-    img: "/image/blogs/blog-10.jpeg",
+    img: "/nextjs-tailwind-campaign-page/image/blogs/blog-10.jpeg",
     icon: GlobeEuropeAfricaIcon,
     title: "Non-fiction Books",
     desc: "up to 40% OFF",
   },
   {
-    img: "/image/blogs/blog-13.png",
+    img: "/nextjs-tailwind-campaign-page/image/blogs/blog-13.png",
     icon: MicrophoneIcon,
     title: "SF & Fantasy Books",
     desc: "up to 40% OFF",

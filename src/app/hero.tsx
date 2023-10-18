@@ -39,28 +39,28 @@ function Hero() {
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle8.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle8.svg"
               className="rounded-lg shadow-md"
               alt="flowers"
             />
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle9.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle9.svg"
               className="-mt-28 rounded-lg shadow-md"
               alt="flowers"
             />
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle10.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle10.svg"
               className="-mt-14 rounded-lg shadow-md"
               alt="flowers"
             />
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle11.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle11.svg"
               className="-mt-20 rounded-lg shadow-md"
               alt="flowers"
             />
@@ -70,21 +70,21 @@ function Hero() {
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle12.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle12.svg"
               className="-mt-28 rounded-lg shadow-md"
               alt="flowers"
             />
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle13.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle13.svg"
               className="-mt-14 rounded-lg shadow-md"
               alt="flowers"
             />
             <Image
               width={768}
               height={768}
-              src="/image/books/Rectangle14.svg"
+              src="/nextjs-tailwind-campaign-page/image/books/Rectangle14.svg"
               className="-mt-20 rounded-lg shadow-md"
               alt="flowers"
             />

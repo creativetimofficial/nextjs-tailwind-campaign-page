@@ -12,7 +12,7 @@ import BookCard from "@/components/book-card";
 
 const BOOKS = [
   {
-    img: `/image/books/RectangleBig1.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig1.svg`,
     category: "Natasha Wing",
     title: "The Night Before Kindergarten",
     desc: "A heartwarming and humorous picture book that eases the jitters of starting kindergarten.",
@@ -20,7 +20,7 @@ const BOOKS = [
     offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig6.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig6.svg`,
     category: "James Patterson",
     title: "Middle School: The Worst Years of My Life",
     desc: "A funny and relatable novel about the challenges of navigating middle school.",
@@ -28,7 +28,7 @@ const BOOKS = [
     offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig2.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig2.svg`,
     category: "Helen W. Colby",
     title: "College Student: A Comprehensive Checklist",
     desc: "A practical guidebook that helps college students prepare for the transition to university.",
@@ -36,7 +36,7 @@ const BOOKS = [
     offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig3.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig3.svg`,
     category: "Walter Pauk",
     title: "How to Study in College",
     desc: "A valuable resource for high school seniors and college freshmen, offering effective study strategies.",
@@ -44,7 +44,7 @@ const BOOKS = [
     offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig4.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig4.svg`,
     category: "William Strunk Jr.",
     title: "The Elements of Style",
     desc: "A classic reference book on grammar and writing skills, essential for high school and college students.",
@@ -52,7 +52,7 @@ const BOOKS = [
     offPrice: "$79",
   },
   {
-    img: `/image/books/RectangleBig5.svg`,
+    img: `/nextjs-tailwind-campaign-page/image/books/RectangleBig5.svg`,
     category: "William Strunk Jr.",
     title: "The Elements of Style",
     desc: "A classic reference book on grammar and writing skills, essential for high school and college students.",
@@ -131,6 +131,5 @@ export function BackToSchoolBooks() {
     </section>
   );
 }
-
 
 export default BackToSchoolBooks;
