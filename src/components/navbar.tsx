@@ -10,7 +10,6 @@ import {
   RectangleStackIcon,
   UserCircleIcon,
   CommandLineIcon,
-  Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
@@ -23,11 +22,6 @@ const NAV_MENU = [
   {
     name: "Account",
     icon: UserCircleIcon,
-  },
-  {
-    name: "Blocks",
-    icon: Squares2X2Icon,
-    href: "https://www.materila-tailwind.com/blocks",
   },
   {
     name: "Docs",
@@ -88,7 +82,9 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
           <Button variant="text">Log in</Button>
-          <Button color="gray">see offers</Button>
+          <a href="https://www.materila-tailwind.com/blocks" target="_blank">
+            <Button color="gray">blocks</Button>
+          </a>
         </div>
         <IconButton
           variant="text"
@@ -115,7 +111,9 @@ export function Navbar() {
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
             <Button variant="text">Log in</Button>
-            <Button color="gray">see offers</Button>
+            <a href="https://www.materila-tailwind.com/blocks" target="_blank">
+              <Button color="gray">blocks</Button>
+            </a>
           </div>
         </div>
       </Collapse>
